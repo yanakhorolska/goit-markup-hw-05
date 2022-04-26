@@ -44,7 +44,7 @@
         <section class="hero overlay">
             <div class="container">
                 <h1 class="title">Эффективные решения для вашего бизнеса</h1>
-            <button class="hero-button" type="button">Заказать услугу</button>
+            <button class="hero-button" type="button" data-modal-open>Заказать услугу</button>
             </div>
         </section>
         <!-- benefits -->
@@ -99,21 +99,21 @@
                 <li class="specifics-item">
                     <a class="specifics-link" href="">
                         <img src="images/box1.jpg" alt="Десктопные приложения" width="370">
-                        <h3 class="specifics-title">Десктопные приложения</h3>
+                        <div class="specifics-title">Десктопные приложения</div>
                     </a>
                     
                 </li>
                 <li class="specifics-item">
                     <a class="specifics-link" href="">
                         <img src="images/box2.jpg" alt="Мобильные приложения" width="370">
-                        <h3 class="specifics-title">Мобильные приложения</h3>
+                        <div class="specifics-title">Мобильные приложения</div>
                     </a>
                     
                 </li>
                 <li class="specifics-item">
                     <a class="specifics-link" href="">
                         <img src="images/box3.jpg" alt="Дизайнерские решения" width="370">
-                        <h3 class="specifics-title">Дизайнерские решения</h3>
+                        <div class="specifics-title">Дизайнерские решения</div>
                     </a>
                     
                 </li>
@@ -368,5 +368,13 @@
    
        </div>
     </footer>
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+ <div class="close" data-modal-close>
+ </div>
+    </div>
+</div>
+
+    <script src="./js/modal.js"></script>
 </body>
 </html>
